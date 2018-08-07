@@ -1,10 +1,9 @@
 <?php
-DEFINE("SERVER", "localhost");
-DEFINE("LOGIN", "root");
-DEFINE("MDP", "");
-DEFINE("BASE", "colyseum");
-
-$connect=mysqli_connect(SERVER,LOGIN,MDP,BASE)or die("pb de connexion au serveur");
+//$connect = mysqli_connect('localhost','root', 'OLNEJI84','colyseum');
+// if($pdo = new PDO('mysql:host=localhost;dbname=colyseum','root','OLNEJI84')){
+//     echo "ok";
+// };
+require "./dbConnect.php";
 ?>
 
 <!DOCTYPE html>
