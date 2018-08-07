@@ -1,8 +1,4 @@
 <?php
-//$connect = mysqli_connect('localhost','root', 'OLNEJI84','colyseum');
-// if($pdo = new PDO('mysql:host=localhost;dbname=colyseum','root','OLNEJI84')){
-//     echo "ok";
-// };
 require "./dbConnect.php";
 ?>
 
